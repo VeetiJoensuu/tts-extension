@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Text-to-Speech Highlighter",
+  "version": "1.0",
+  "description": "Reads aloud highlighted text on a webpage.",
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "extension.js"
+  },
+  "action": {
+    "default_title": "Text-to-Speech Highlighter"
+  }
+}
